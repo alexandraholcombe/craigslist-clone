@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Listing } from './../listing.model';
+import { Category } from './../category.model';
 import { Router } from '@angular/router';
 import { ListingService } from '../listing.service';
 
@@ -9,8 +10,12 @@ import { ListingService } from '../listing.service';
   styleUrls: ['./listings.component.css'],
   providers: [ListingService]
 })
+
+
 export class ListingsComponent implements OnInit {
-  listingList: Listing[];
+  @Input() categoryId: number;
+
+  categoryListingList: Listing[];
 
   constructor(
     private router: Router,
@@ -18,7 +23,8 @@ export class ListingsComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.listingList = this.listingService.getListings();
+    console.log(this.categoryId);
+    this.categoryListingList = this.listingService.getListingByCategoryId(this.categoryId);
   }
 
 }

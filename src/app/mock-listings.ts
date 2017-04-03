@@ -16,5 +16,5 @@ export const LISTINGS: Listing[] = [
   new Listing('2007 Lexus IS 250', 6600, 'Tacoma', 'Selling a 2007 Lexus IS 250 runs and drives doesn\'t have any mechanical issues fully loaded with leather seats power windows and locks everything works 200k + miles & clean title. If interested shoot a text or call', 7, 13),
   new Listing('2006 Ford F350 Lariat 4x4 crew cab diesel', 18500, 'Renton', 'I don\'t need help selling it. I\'m not interested in trades. I won\'t ship it to the east coast so your mechanic can look at it. No Paypal. Cash only, face to face. Don\'t call me with an offer if you haven\'t seen the truck in person. I know this sounds grumpy but if you\'ve never listed something for sale here then you wouldn\'t believe all the crap calls you get.', 7, 14),
   new Listing('Croquet Set', 15, 'University Place', 'Nice croquet set for 6 players. Great for family fun! Cost $49.99 new.', 8, 15),
-  new Listing('Heavy Duty Desktop ACCO 131 Stapler', 15, 'Lakewood', 'ACCO 131 · Manual · Desktop · Heavy Duty industrial stapler includes 1 1/2 boxes of staples. This stapler will staple dozens of pages at one time.', 1, 16),
+  new Listing('Heavy Duty Desktop ACCO 131 Stapler', 15, 'Lakewood', 'ACCO 131 · Manual · Desktop · Heavy Duty industrial stapler includes 1 1/2 boxes of staples. This stapler will staple dozens of pages at one time.', 8, 16),
 ]
