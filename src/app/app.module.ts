@@ -7,12 +7,14 @@ import { routing } from './app.routing';
 import { AppComponent } from './app.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { CategoryDetailComponent } from './category-detail/category-detail.component';
+import { ListingsComponent } from './listings/listings.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CategoriesComponent,
-    CategoryDetailComponent
+    CategoryDetailComponent,
+    ListingsComponent
   ],
   imports: [
     BrowserModule,

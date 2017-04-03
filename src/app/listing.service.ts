@@ -8,6 +8,7 @@ export class ListingService {
   constructor() { }
 
   getListings() {
+    console.log(LISTINGS);
     return LISTINGS;
   }
 
@@ -18,5 +19,4 @@ export class ListingService {
       }
     }
   }
-
 }

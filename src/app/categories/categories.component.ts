@@ -13,10 +13,13 @@ import { CategoryService } from '../category.service';
 export class CategoriesComponent implements OnInit {
   categoryList: Category[];
 
-  constructor(private router: Router, private categoryService: CategoryService) {}
+  constructor(
+    private router: Router,
+    private categoryService: CategoryService
+  ) {}
 
   ngOnInit() {
-    this.categoryList = this.categoryService.getCategories(); 
+    this.categoryList = this.categoryService.getCategories();
 
   }
 

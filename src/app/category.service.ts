@@ -12,7 +12,7 @@ export class CategoryService {
   }
 
   getCategoryById(categoryId){
-    for (var i = 0; i <= CATEGORIES.length - 1; i++) {
+    for (var i = 0; i < CATEGORIES.length; i++) {
       if (CATEGORIES[i].id === categoryId) {
         return CATEGORIES[i];
       }
