@@ -10,4 +10,12 @@ export class CategoryService {
   getCategories() {
     return CATEGORIES;
   }
+
+  getCategoryById(categoryId){
+    for (var i = 0; i <= CATEGORIES.length - 1; i++) {
+      if (CATEGORIES[i].id === categoryId) {
+        return CATEGORIES[i];
+      }
+    }
+  }
 }
